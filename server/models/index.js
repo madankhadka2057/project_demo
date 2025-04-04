@@ -4,7 +4,7 @@ const dbConfig = require('../config/config.js');
 
 // Load environment variables from .env file
 dotenv.config();
-
+//config env
 const env = process.env.NODE_ENV || 'development';
 const config = dbConfig[env]; // Access the specific environment configuration
 
